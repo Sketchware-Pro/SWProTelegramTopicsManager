@@ -41,7 +41,7 @@ async def check_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
 
 def main():
     app = ApplicationBuilder().token(TOKEN).build()
-    app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, check_message))
+    app.add_handler(MessageHandler(filters.ALL & ~filters.COMMAND, check_message))
     app.run_polling(poll_interval=0.1, timeout=10)
 
 if __name__ == '__main__':
