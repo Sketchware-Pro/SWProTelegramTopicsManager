@@ -24,6 +24,9 @@ allowed_users_by_topic = {
         1608453750,  # @Bobur4ik05
         1013653102,  # @jkhon
         6841473609,  # @ishak_mes
+        1752763139,  # @aikrqq
+        1493547431,  # @PranavPurwar
+        6148526102,  # @HasratAKhan
     ],
 }
 
