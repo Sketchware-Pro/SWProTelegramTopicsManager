@@ -28,6 +28,7 @@ allowed_users_by_topic = {
         1493547431,  # @PranavPurwar
         6148526102,  # @HasratAKhan
         1350857656,  # @nethicalps
+        6611700208,  # Sanjeev Kumar
     ],
 }
 
